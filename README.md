@@ -1,1 +1,0 @@
-# sepro-vendor-checklist-portal
