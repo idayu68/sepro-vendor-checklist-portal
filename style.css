@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #1f2937;
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 16px;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.disabled {
+  background-color: gray;
+  pointer-events: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: rgb(186, 202, 217);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #1f2937;
+  color: white;
+}
+
+textarea {
+  width: 100%;
+  min-height: 50px;
+}
+
+.section {
+  margin: 30px 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.save-btn {
+  background-color: #2563eb;
+  color: white;
+}
+
+.reset-btn {
+  background-color: #ef4444;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  table {
+    font-size: 14px;
+  }
+}
